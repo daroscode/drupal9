@@ -1,0 +1,5 @@
+name: 'Real Time Page Counter'
+type: module
+description: 'Real-time node view counter.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom

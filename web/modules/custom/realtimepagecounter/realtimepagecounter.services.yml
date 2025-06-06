@@ -1,0 +1,6 @@
+services:
+  realtimepagecounter.node_view_counter:
+    class: Drupal\realtimepagecounter\EventSubscriber\NodeViewCounterSubscriber
+    arguments: ['@database', '@current_user']
+    tags:
+      - { name: event_subscriber }
